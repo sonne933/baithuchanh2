@@ -120,6 +120,7 @@ public class SimpleCalculator extends JFrame implements ActionListener{
             chia();
         }
     }
+    //ghi chu them nhung btn can lam
 
     
 
