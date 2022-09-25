@@ -93,7 +93,20 @@ public class SimpleCalculator extends JFrame implements ActionListener{
         // Hien thi ket qua
         tfResult.setText(String.valueOf(result));
     }
-    //add
+    //add them phim mac dinh
+    @Override
+    public void actionPerformed(ActionEvent e) {
+        // Khi click btnCong, btnTru, btnNhan, btnChia
+        if (e.getActionCommand() == "+") {
+            cong();
+        } else if (e.getActionCommand() == "-") {
+            tru();
+        } else if (e.getActionCommand() == "*") {
+            nhan();
+        } else if (e.getActionCommand() == "/") {
+            chia();
+        }
+    }
 
     
 
