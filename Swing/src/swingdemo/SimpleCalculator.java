@@ -81,6 +81,20 @@ public class SimpleCalculator extends JFrame implements ActionListener{
         this.pack();
         this.setVisible(true);
     }
+ // Ham thuc hien phep chia
+    public void chia() {
+        // Lay tu du lieu
+        double num1 = Double.parseDouble(tfNum1.getText());
+        double num2 = Double.parseDouble(tfNum2.getText());
+
+        // Tinh toan
+        double result = num1 / num2;
+
+        // Hien thi ket qua
+        tfResult.setText(String.valueOf(result));
+    }
+
+    
 
     
 
