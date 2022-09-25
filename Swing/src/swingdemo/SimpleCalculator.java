@@ -93,6 +93,7 @@ public class SimpleCalculator extends JFrame implements ActionListener{
         // Hien thi ket qua
         tfResult.setText(String.valueOf(result));
     }
+    //add
 
     
 
