@@ -157,7 +157,7 @@ public class SimpleCalculator extends JFrame implements ActionListener{
 
     
 
-    
+    //đã comment
     public static void main(String[] args) {
         // Khai bao doi tuong
         SimpleCalculator slculator = new SimpleCalculator("Simple Calculator");
