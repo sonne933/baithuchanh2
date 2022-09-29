@@ -121,6 +121,7 @@ public class SimpleCalculator extends JFrame implements ActionListener{
         }
     }
     //ghi chu them nhung btn can lam
+    //them phep tinh con thieu
 
     
 
